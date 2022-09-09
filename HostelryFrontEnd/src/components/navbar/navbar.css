@@ -1,0 +1,56 @@
+.navbar{
+    margin-right: 0px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EBEBEB;
+    color: #2DBE5F;
+    position: sticky;
+    top:0;
+    z-index: 99;
+    
+}
+
+
+.navContainer{
+    width: 100%;
+    max-width: 1024px;
+}
+
+.hostelry{
+    text-decoration: none;
+    color: #2DBE5F;
+    font-weight: 900;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+.navItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navItem>span{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navBtn{
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    /* background-color: #004369 ; */
+    background-color: #2DBE5F;
+    color: white;
+    border-radius: 15px;
+    font-family: cursive;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.userDiv>button{
+    margin-left: 20px;
+}

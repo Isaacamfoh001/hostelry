@@ -1,0 +1,104 @@
+.container{
+    display: flex;
+    position: relative;
+    
+}
+.listWrapper{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+
+}
+
+.searchSection{
+    background-color: #2DBE5F;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    flex:1;
+    position: sticky;
+    top:120px;
+    height: max-content;
+    border-radius: 15px;  
+}
+
+.searchSection>h2{
+    color:white;
+   
+}
+
+.searchSection>span{
+   color:white;
+   margin-bottom: 5px;
+   font-weight: 300;
+   font-size: 14px;
+  
+ 
+}
+
+.searchSection>input{
+    padding: 10px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+
+.priceRange>span{
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+    /* margin-right: 10px; */
+
+    
+}
+
+.priceRange>input{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.searchBtn{
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    background-color: white ;
+    color: #2DBE5F;
+    cursor: pointer;
+}
+
+
+.imageWrapper{
+    display: flex;
+    flex:3;
+    justify-content: space-around;
+   
+    
+}
+
+.imagesContainer{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.imageContent{
+    display: flex;
+    flex-direction: column;
+}
+.imageContent>span{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.images{
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.bookNow{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
